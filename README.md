@@ -13,7 +13,7 @@ The main challenge of this process was the `=countifs` formula and understanding
 ### Theater Outcomes by Launch Date 
 This chart displays how the successful and failed outcomes have a similar behavior across different months, **except for the months May, June and July in which the successful outcomes increment significantly.  **.
 
-[Chart] (docs/Theater_Outcomes_vs_Launch.png) 
+[Chart](main/Outcomes_vs_Goals.png)
 ./(docs/Theater_Outcomes_vs_Launch.png)
 
 Secondly, we can evidence in the month of December both outcomes (Successful and failed) had the same amount of campaigns. 
