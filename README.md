@@ -1,14 +1,26 @@
 # Fundraising Analysis 
 ## Overview 
-Fever is a play that could not reach its fundraising goal previously, for that reason, Lousie would like to have a better understanding of what makes a fundraising campaing succesfull. For that reason, in the following analysis we will be looking closely at two different variables,goal amount, launch date and its relationship with the outcome of the fundraising.
+Fever is a play that could not reach its fundraising goal previously, for that reason, Lousie would like to have a better understanding of what makes a fundraising campaign successful. In the following analysis we will be looking closely at two different variables, goal amount, launch date and its relationship with the outcome of the fundraising.
 
 ## Analysis and Challenges 
-### Overall Analysis 
-To begin the analysis we took a look at the relationship between the lauhc date with the outcome, to obtain this data, the `=year` function was used to extract the time information from the launch date, later a `PivotTable` was created and filtrated by `months`, the parent category into `Theater` and arranged in `descendent`. At first glance, we can evidence that the failed and successful campaigns have a similar behavior, **except for the months May, June and July in which the successful outcomes increment significantly.**
+### Overall results
+The overall analysis results indicated that during the months of May to July the successful campaigns were almost doubled as the failed and canceled campaigns. Another important fact is that the fundraising for a play has never been cancelled regardless of its amount goal, although, the goal amount that reached most successful outcome was between less than a $1000 to $4999 or $35000 to $39999. The recommendation will be to launch a fundraising campaign between the months of May to July with a fundraising goal of less than $4999. 
 
-The second analysis was the outcome according to the goal. First, the goal was segmented into different amounts with increments of $5000 per segment, allowing the data to have a better structure for the intended analysis.Later on, the formula `=countifs` was used to extract the information and filter was added, such as `plays` on the subcategory, `successful` on the outcome and the `amount` on the goal according to each segment. The results show that none of the plays were cancel, regardless of the goal amount, also,**there is an invert relationship between the successfull and failed overcome.** 
+### Challenges 
+The main challenge of this process was the `=countifs` formula and understandings its structure, since each criteria has a separated criteria range. The second challenge was getting familiarized with the [github languaje]( https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax )
 
-###Challenges 
+## Conclusions 
+### Theater Outcomes by Launch Date 
+This chart displays how the successful and failed outcomes have a similar behavior across different months, **except for the months May, June and July in which the successful outcomes increment significantly.  **.
 
-The main challenge of this process was the `=countifs` formula and understandings its estrucuture, since each criteria has a separated criteria range. The second challenge was getting familiarized with the [github languaje]( https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax )
+Secondly, we can evidence in the month of December both outcomes (Successful and failed) had the same amount of campaigns. 
+
+### Outcome Based on Goal 
+The results show that none of the plays were cancel, regardless of the goal amount, also, there is an invert relationship between the successful and failed overcome, although, the goal amount that reached most successful outcome was between less than a $1000 to $4999 or $35000 to $39999.  **
+
+## Summary and Recommendations 
+The limitations the dataset is that it displays datapoints from campaigns in different countries, which may affect the results of the outcome. Other additional tables will be **the relationship between backers counts and outcome**  with this we can determine what is the minimum number of backers needed for a successful campaign. 
+
+
+
 
