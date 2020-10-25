@@ -10,12 +10,12 @@ The overall analysis results indicated that during the months of May to July the
 The main challenge of this process was the `=countifs` formula and understandings its structure, since each criteria has a separated criteria range. The second challenge was getting familiarized with the [github languaje]( https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax ) to present the result in a easy and user friendly format. 
 
 ## Conclusions 
-### Theater Outcomes by Launch Date [Chart](Theater_Outcomes_vs_Launch.png)
+### Theater Outcomes by Launch Date [(Chart)](Theater_Outcomes_vs_Launch.png)
 This chart displays how the successful and failed outcomes have a similar behavior across different months, **except for the months May, June and July in which the successful outcomes increment significantly.  **.
 
 Secondly, we can evidence in the month of December both outcomes (Successful and failed) had the same amount of campaigns. 
 
-### Outcome Based on Goal [Chart](Outcomes_vs_Goals.png)
+### Outcome Based on Goal [(Chart)](Outcomes_vs_Goals.png)
 The results show that none of the plays were cancel, regardless of the goal amount, also, there is an invert relationship between the successful and failed overcome, although, the goal amount that reached most successful outcome was between less than a $1000 to $4999 or $35000 to $39999.  **
 
 ## Summary and Recommendations 
