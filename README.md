@@ -10,5 +10,5 @@ The second analysis was the outcome according to the goal. First, the goal was s
 
 ###Challenges 
 
-The main challenge of this process was the `=countifs` formula and understandings its estrucuture, since each criteria has a separated criteria range. The second challenge was getting familiarized with the [ github languaje] ( https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax )
+The main challenge of this process was the `=countifs` formula and understandings its estrucuture, since each criteria has a separated criteria range. The second challenge was getting familiarized with the [github languaje]( https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax )
 
