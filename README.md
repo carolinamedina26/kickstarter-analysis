@@ -4,6 +4,6 @@ Fever is a play that could not reach its fundraising goal previously, for that r
 
 ## Analysis and Challenges 
 ### Overall Analysis 
-To begin the analysis, we first used the `year` function to extract the time information from the launch date, later a `PivotTable` was created and filtrated by `months`, the parent category into `Theater` and arranged in `descendent`. At first glance, we can evidence that the failed and successful campaigns have a similar behavior, **except for the months May, June and July in which the successful outcomes increment significantly.**
+To begin the analysis, we first used the `=year` function to extract the time information from the launch date, later a `PivotTable` was created and filtrated by `months`, the parent category into `Theater` and arranged in `descendent`. At first glance, we can evidence that the failed and successful campaigns have a similar behavior, **except for the months May, June and July in which the successful outcomes increment significantly.**
 
 Secondly, 
